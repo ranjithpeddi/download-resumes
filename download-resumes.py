@@ -38,8 +38,6 @@ def downloadResumes():
 
         numberOfPages = int(lastPage)
 
-        numberOfPages = 2
-
         # Invoke CindeJob for each pageNumber
         for pageNumber in range(2, numberOfPages +1):
             requestXmlString = getRequest(pageNumber)
